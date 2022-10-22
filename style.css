@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+#header{
+    background: #161D2F;
+}
+
+.log{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.header{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.headbtn{
+    background: linear-gradient(97.1deg, #3043A9 11.99%, #1F629F 96.6%);
+    border-radius: 28px;
+    padding: 10px 15px;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+}
+.headbtn:hover{
+    background: red;
+    color: black;
+    transform: rotate3d(1,0,0,1turn);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#section{
+    background: #161D2F;
+    height: 2000px;
+}
+
+.section1{
+    padding: 100px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.info h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.info h1{
+    color: #FFFFFF;
+    font-size: 62px;
+    text-align: center;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.info h3{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.sectbtn{
+    position: absolute;
+    padding: 290px 0 0 0;
+}
+
+.btn1{
+    background: linear-gradient(97.1deg, #3043A9 11.99%, #1F629F 96.6%);
+    border-radius: 28px;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border: none;
+    margin: 20px;
+}
+.btn1:focus{
+    transform: scale(2,2);
+    background: red;
+    color: black;
+}
+.btn2{
+    padding: 10px 15px;
+    border: 1px solid #FFFFFF;
+    border-radius: 28px;
+    box-sizing: border-box;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: none;
+    margin: 20px;
+}
+.btn2:active{
+    background: red;
+    color: black;
+    transform: rotate3d(1,1,1,1turn);
+}
+.sectimg{margin-top: 400px;
+
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.secImg {
+    position: absolute;
+}
