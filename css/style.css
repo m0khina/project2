@@ -9,6 +9,9 @@
 #header{
     background: #161D2F;
 }
+body{
+    font-family: 'Poppins',sans-serif;
+}
 
 .log{
     font-size: 24px;
@@ -120,4 +123,80 @@
     position: absolute;
     margin-left: -600px;
     margin-top: 310px;
+}
+.block1{
+    padding: 150px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block1 h3{
+    font-weight: 400;
+    font-size: 14px;
+    color: #262626;
+}
+.block1 h1{
+    padding: 10px 0 50px 0;
+    font-weight: 600;
+    font-size: 40px;
+    color: #222222;
+    text-align: center;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-slide h1{
+    margin-left: -100px;
+    font-weight: 500;
+    font-size: 35px;
+    color: #222222;
+}
+.swiper-slide h3{
+    margin-left: -290px;
+    font-weight: 400;
+    font-size: 19px;
+    color: #222222;
+}
+.swiper-slide h4{
+    padding: 20px 0 ;
+    margin-left: -70px;
+    font-weight: 200;
+    font-size: 16px;
+    color: #4B4B4B;
+}
+.swiper-slide a{
+    margin-left: -210px;
+    text-decoration: none;
+}
+.swiper-slide svg{
+    margin-top: -15px;
+    margin-left: 12px ;
 }
