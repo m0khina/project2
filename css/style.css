@@ -176,27 +176,96 @@ body{
 .swiper-slide h1{
     margin-left: -100px;
     font-weight: 500;
-    font-size: 35px;
+    font-size: 30px;
     color: #222222;
 }
 .swiper-slide h3{
-    margin-left: -290px;
+    margin-left: -260px;
     font-weight: 400;
-    font-size: 19px;
+    font-size: 17px;
     color: #222222;
 }
 .swiper-slide h4{
     padding: 20px 0 ;
     margin-left: -70px;
     font-weight: 200;
-    font-size: 16px;
+    font-size: 14px;
     color: #4B4B4B;
 }
 .swiper-slide a{
-    margin-left: -210px;
+    margin-left: -170px;
     text-decoration: none;
 }
 .swiper-slide svg{
     margin-top: -15px;
     margin-left: 12px ;
+}
+.btnBlok2{
+    background: #161D2F;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 26px;
+    margin-left: 100px;
+    z-index: 1;
+}
+.block2Imgs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.img3{
+    position: absolute;
+    margin-left: 170px;
+}
+.img4{
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 25px;
+}
+.btn2Blok2{
+    z-index: 1;
+    margin-top: 395px;
+    margin-left: 400px;
+    background: #161D2F;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 26px;
+}
+.titles{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+}
+.titles h3{
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #222222;
+}
+.titles h1{
+    padding: 20px 0;
+    font-weight: 600;
+    font-size: 39px;
+    text-transform: capitalize;
+    color: #161D2F;
+}
+.titles h4{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #222222;
+}
+.block2{
+    display: flex;
 }
